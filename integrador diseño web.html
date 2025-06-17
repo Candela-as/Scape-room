@@ -1,0 +1,421 @@
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset='utf-8'>
+            <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+            <title>Scape Abyss</title>
+            <meta name='viewport' content='width=device-width, initial-scale=1'>
+            <link rel="stylesheet" href="./estilomenu.css">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+           <link rel="stylesheet" href="/escaperoom.js">
+        </head>
+
+
+        <body>
+            <!-- --------------------------------PARTE DE LA PRIMER DIVISION-------------------------------- -->
+            <!-- --------------------------------PARTE DEL MENU-------------------------------- -->
+        <div class="BARRADEMENU">
+          <nav>
+            <div class="nav">
+                <div class="logo">
+                    <img src="/home/franchis/F.I/logon.jpeg" width="50" height="50" alt="error de imagen">
+                </div>
+                <div class="nav-links">
+                    <ul>
+                        <li> <a href="#back-central">Home</a></li>
+                        <li> <a href="#registro-bloque">Reserva</a></li>
+                        <li> <a href="#juegos">Juegos</a></li>
+                        
+                        <li> <a href="#precio">Precios</a></li>
+                        <li> <a href="#divs-ubicaciones">Ubicaciones</a></li>
+                    </ul>
+                </div>
+            </div>
+          </nav>
+        </div>
+
+        <header>
+            <div class="back-central">
+
+              <h1 class="wave-text">
+                <span>S</span>
+                <span>C</span>
+                <span>A</span>
+                <span>P</span>
+                <span>E</span>
+            </h1>
+            <h1 class="wave-text">
+              <span> </span>
+              <span> </span>
+              <span> </span>
+              <span> </span>
+              <span>R</span>
+              <span>O</span>
+              <span>O</span>
+              <span>M</span>
+          </h1>
+          <h1 class="wave-text">
+            <span> </span>
+              <span> </span>
+              <span> </span>
+              <span> </span>
+            <span>A</span>
+            <span>B</span>
+            <span>y</span>
+            <span>S</span>
+            <span>S</span>
+        </h1>
+            </div>
+           
+            
+        </header>
+<!-- --------------------------------PARTE DE LOS JUEGOS-------------------------------- -->
+                      <div id="juegos"> <div class="tJ"><h1 class="texto1 t4">SALAS DISPONIBLES</h1></div> 
+                          <div class="carrusel3">
+                            <div class="item3 " onclick="openModal3(1)">
+                              <img src="https://i.pinimg.com/736x/4d/9e/59/4d9e5956cb99051e17413b9993d8c442.jpg" alt="Imagen 2">
+                              <h3>Scream</h3>
+                            </div>
+                            <div class="item3" onclick="openModal3(2)">
+                              <img src="https://i.pinimg.com/736x/4a/02/bd/4a02bd34940922890210610c2c40c065.jpg" alt="Imagen 3">
+                              <h3>Once y cinco</h3>
+                            </div>
+                            <div class="item3" onclick="openModal3(3)">
+                              <img src="https://i.pinimg.com/736x/4b/60/00/4b6000824d45905174a99a530b2888ae.jpg" alt="Imagen 4">
+                              <h3>Katnis, y peeta?</h3>
+                            </div>
+                            <div class="item3" onclick="openModal3(4)">
+                              <img src="https://i.pinimg.com/736x/fc/2f/30/fc2f30186459f992cf46c9a4667fe486.jpg" alt="Imagen 5">
+                              <h3>Poltergeist</h3>
+                            </div>
+                            <div class="item3" onclick="openModal3(5)">
+                              <img src="https://i.pinimg.com/736x/c5/e1/72/c5e1728dfce5ce58817b921ed47d9471.jpg" alt="Imagen 6">
+                              <h3>Si yo llamo, quien atiende?</h3>
+                            </div>
+                            <div class="item3" onclick="openModal3(6)">
+                              <img src="https://i.pinimg.com/736x/45/66/5d/45665d8439df50cbcaa9c29df0f52ca4.jpg" alt="Imagen 7">
+                              <h3>¿Quien fue?</h3>
+                            </div>
+                            <div class="item3" onclick="openModal3(7)">
+                              <img src="https://i.pinimg.com/736x/7d/0b/75/7d0b75d0b5dab5a36b3a01615438b707.jpg" alt="Imagen 8">
+                              <h3>Sentencia de dufuncion</h3>
+                            </div>
+                          </div>
+                    </div>
+                      
+                <!-- Modal -->
+                <div class="modal3" id="modal3">
+                  <div class="modal-content3">
+                    <h2 id="modal-title3"></h2>
+                    <p id="modal-text3"></p>
+                    <button class="close-btn3" onclick="closeModal3()">Cerrar</button>
+                  </div>
+                </div>
+
+                
+ <!-- --------------------------------PARTE DEL PRECIO-------------------------------- -->               
+                              <div class="seccion-precio" id="precio">
+                                
+                                  <div class="seccion-divs">
+
+                                  <div class="tJ"><h1 class="texto1 t4">PRECIOS DE SALAS</h1></div>
+                                    <div class="contenedor">
+                                      <div class="bloque bg1">
+                                        <img src="2p.png" width="80" height="80" alt="89">
+                                        <h3>2 Personas</h3>
+                                        <p>$15000</p>
+                                      </div>
+                                      <div class="bloque bg2">
+                                        <img src="3p.png" width="80" height="80" alt="89">
+                                        <h3>3 Personas</h3>
+                                        <p>$21000</p>
+                                      </div>
+                                      <div class="bloque bg3">
+                                        <img src="4p.png" width="80" height="80" alt="89">
+                                        <h3>4 Personas</h3>
+                                        <p>$35500</p>
+                                      </div>
+                                      <div class="bloque bg4">
+                                        <img src="5p.png" width="80" height="80" alt="89">
+                                        <h3>5 Personas</h3>
+                                        <p>$43900</p>
+                                      </div>
+                                      <div class="bloque bg5">
+                                        <img src="6p.png" width="80" height="80" alt="89">
+                                        <h3>6 Personas</h3>
+                                        <p>$50100</p>
+                                      </div>
+                                      <div class="bloque bg6">
+                                        <img src="7p.png" width="80" height="80" alt="89">
+                                        <h3>7 Personas</h3>
+                                        <p>$55000</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                                </div>
+
+
+ 
+ <!-- --------------------------------PARTE DEL REGISTRO-------------------------------- -->               
+
+                                                  <div id="registro-bloque">
+                                                    <h2 class="titulo">¡Reserva Fecha!</h2>
+                                              
+                                                        <div class="registro-contenido">
+                                                          <div class="textos">
+                                                            <div class="texto">
+                                                              <p>Para reserva turno llena el formulario que se encuentra apretando el voton "pedir turno" llena las casillas y manda enviar, vas a recibir un mensaje de confirmacion por whatsapp.  </p>
+                                                              <p>¡Los juegos se eligen el dia de la reserva!</p>
+                                                           </div>
+                                                          </div>
+                                                      
+                                                          <div class="acciones">
+                                                            <button id="btn-registrarme">Pedir turno.</button>
+                                                            <form id="form-registro" style="display: none;">
+                                                              <label for="NOM">Nombre completo / Apodo</label>
+                                                              <input type="text" name="NOM" id="NOM" pattern="/^[a-zA-ZáéíóúÁÉÍÓÚñÑ\s'-]/" minlength="3" placeholder="Nombre o Apodo" required>
+                                                              <div class="error-message" id="error-NOM"></div>
+                                                          
+                                                              <label for="NUM">Numero de telefono</label>
+                                                              <input type="number" name="NUM" id="NUM" pattern="/^(?:(?:0|54)(?:9)?\s?)?(?:11|[2-3][0-9]{3}|[4-9][0-9]{2,3})[\s-]?(\d{3,4}[\s-]?\d{4})$/" min="1000000000" max="9999999999" placeholder="Numero de telefono" required>
+                                                              <div class="error-message" id="error-NUM"></div>
+                                                          
+                                                              <label for="FE">Fecha del turno</label>
+                                                              <input type="date" name="FE" id="FE" min="2025-06-12" max="2025-12-20" required>
+                                                              <div class="error-message" id="error-FE"></div>
+                                                          
+                                                              <label for="CANT">Cantidad de personas</label>
+                                                              <input type="number" name="CANT" id="CANT" min="2" max="7" placeholder="Cantidad de personas"  required>
+                                                              <div class="error-message" id="error-CANT"></div>
+                                                          
+                                                              <label for="opciones">Metodo de pago.</label>
+                                                              <select id="opciones" name="opciones">
+                                                                <option class="opcione" value="opcion1">Efectivo.</option>
+                                                                <option class="opcione" value="opcion2">Transferencia.</option>
+                                                                <option class="opcione" value="opcion3">Tarjeta.</option>
+                                                              </select>
+                                                              <input type="button" id="btn-enviar-formulario" onclick="validarFormulario()" value="Enviar">
+                                              
+                                                            </form>
+                                                        </div>
+                                                      </div>
+                                                  </div>
+                                                  <script >
+
+                                                
+                                                </script>
+                                                
+
+
+      <!-- --------------------------------PARTE DE LA UBICACION------------------------------- -->               
+<div class="back ">
+  <div id="divs-ubicaciones">
+          <div class="tJ ayuda">
+            <h1 class="texto1 t4">Nuestras sedes</h1>
+          </div>
+          <div class="mapa-container">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8768.846352996452!2d-66.33712986331001!3d-33.28986915463531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sar!4v1749572158031!5m2!1sen!2sar" 
+              width="100%" 
+              height="100%" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+  </div>
+        
+
+                                                              
+    <!-- --------------------------------PARTE DEL FOOTER-------------------------------- -->               
+    <footer>
+      <div class="footer-container">
+          <div class="footer-section footer-logo">
+              <img src="logon.jpeg" alt="Logo Escape Room San Luis">
+              <p>¡Desafía tu mente en el mejor Escape Room de San Luis!</p>
+          </div>
+  
+          <div class="footer-section">
+              <h4>Navegación Rápida</h4>
+              <ul>
+                  <li><a href="#back-central">Home</a></li>
+                  <li><a href="#juegos">Juegos</a></li>
+                  <li><a href="#precio">Precios</a></li>
+                  <li><a href="#registro-bloque">Reserva</a></li>
+                  <li><a href="#divs-ubicaciones">Ubicación</a></li>
+              </ul>
+          </div>
+  
+          <div class="footer-section">
+              <h4>Contacto</h4>
+              <p><i class="fas fa-envelope"></i> scapeSL@gmail.com</p>
+              <p><i class="fas fa-phone-alt"></i> +54 9 2668634717</p>
+              <p><i class="fas fa-map-marker-alt"></i> 25 de Agosto y San Juan, San Luis</p>
+              <a href="https://maps.google.com/?q=25+de+Agosto+y+San+Juan,+San+Luis" target="_blank" class="map-link">Ver en Google Maps</a>
+          </div>
+  
+          <div class="footer-section">
+              <h4>Síguenos</h4>
+              <div class="social-links">
+                  <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                  </div>
+              </div>
+      </div>
+  
+      <div class="footer-bottom">
+          <p>&copy; <span id="current-year"></span> Escape Room San Luis. Todos los derechos reservados.</p>
+          </div>
+          
+  </footer>
+  
+  <script>
+
+//parte del carrucel
+
+const modal3 = document.getElementById('modal3');
+                const modalTitle3 = document.getElementById('modal-title3');
+                const modalText3 = document.getElementById('modal-text3');
+
+                const modalData3 = [
+                  { title: "Scream", 
+                                  text: "" },
+
+                  { title: "Scream", text: "¡Prepárate para Grítar! Tu Noche de Horrores Comienza Aquí.¿Crees que conoces las reglas? Piensa otra vez.Atrapado en la infame casa de la familia Prescott, Ghostface ha vuelto y esta vez, ¡tú eres el objetivo! En este escape room, deberás desentrañar pistas, descifrar al asesino y, lo más importante, ¡mantenerte con vida! Pero cuidado, Ghostface siempre está un paso adelante.                Duración: 60 minutos      .Jugadores: De 2 a 6 .   Dificultad: Media." },
+                  { title: "Once y cinco", text: "El reloj marca las once y cinco y Hawkins está en peligro. Las luces parpadean, las voces susurran y una energía extraña lo inunda todo. Estás en el laboratorio de Hawkins, donde los experimentos abrieron el portal.Tu misión es clara: cerrar el portal antes de que el Upside Down nos invada. Deberás descifrar mensajes, activar dispositivos y despertar tus propias habilidades. ¡El Demogorgon acecha!                Duración: 60 .   Jugadores: De 2 a 6 Dificultad: Alta " },
+                  { title: "Katnis, y Peeta?", text: "El silbato sonará. En un búnker que simula el laberinto de los 76° Juegos del Hambre, tu equipo deberá unir fuerzas. Como Katniss y Peeta, enfrentarán enigmas que desafiarán su lealtad y astucia para sobrevivir al Capitolio. ¿Lograrán salir juntos o el hambre los dividirá? Duración: 80 minutos.Jugadores: De 2 a 6 tributos.Dificultad: Alta."},
+                  { title: "Poltergeist", text: "Las estáticas en la TV no son casualidad. Estás en la casa Freeling, donde las presencias han reclamado lo suyo. Los objetos se mueven, las voces susurran y Carol Anne ha desaparecido. Tu misión: desentrañar los secretos de esta casa maldita, comunicarte con los espíritus y liberar a los vivos. ¿Listo para enfrentar tus pesadillas?       Duración: 75 minutos. Jugadores: De 2 a 6 . Dificultad: Extrema." },
+                  { title: "Si yo llamo, quien atiende?", text: "Estás atrapado en un lugar olvidado, y la única salida parece ser esa puerta enigmática. Escuchas algo del otro lado, una presencia que te llama golpeando suavemente. No es un teléfono, es una invitación a un lugar desconocido, o quizás, una advertencia. Deberás golpear, descifrar las respuestas y manipular el entorno para entender quién o qué te llama desde el umbral. Pero cada golpe te adentra más en la oscuridad, y la entidad del otro lado parece saberlo todo sobre ti. ¿Te atreves a responder al llamado?        Duración: 40 minutos. Jugadores: De 2 a 6 Dificultad: Baja-Media " },
+                  { title: "¿Quien fue?", text: "La escena del crimen es un rompecabezas. Tu equipo de detectives debe sumergirse en un caso sin resolver, analizando pruebas, descifrando testimonios y conectando los puntos que nadie más vio. Cada objeto guarda un secreto. ¿Tienen el ingenio para atar los cabos sueltos y desenmascarar al criminal?         Duración: 60 minutos.Jugadores: De 2 a 6. Dificultad: Media" },
+                  { title: "Sentencia de Defunción", text: "La morgue está oscura, y tu vida pende de un hilo. Eres la víctima de un asesino en serie que te ha encerrado, dejando acertijos ligados a sus crímenes. Deberás descifrar sus retorcidas pistas y explorar cada rincón para escapar antes de que se cumpla tu sentencia. ¿Podrás reescribir tu destino y huir de la muerte inminente? Duración: 60 minutos.Jugadores: De 2 a 6.Dificultad: Alta." }
+                ];
+
+                function openModal3(index) {
+                  modalTitle3.textContent = modalData3[index].title;
+                  modalText3.textContent = modalData3[index].text;
+                  modal3.style.display = 'flex';
+                }
+
+                function closeModal3() {
+                  modal3.style.display = 'none';
+                }
+
+                window.addEventListener('click', e => {
+                  if (e.target === modal3) closeModal3();
+                });
+
+ //json y registro       
+
+        document.getElementById("btn-registrarme").addEventListener("click", () => {
+          const form = document.getElementById("form-registro");
+          form.style.display = form.style.display === "none" ? "block" : "none";
+          });
+          
+
+          // Función de validación del formulario
+          function validarFormulario() {
+          let formIsValid = true; // Variable para controlar si todo el formulario es válido
+
+          // Limpiar mensajes de error previos
+          document.querySelectorAll('.error-message').forEach(el => el.innerHTML = '');
+
+          // Validar Nombre
+          const nomInput = document.getElementById("NOM");
+          
+      
+// 1. Validar si el nombre contiene números
+if (/\d/.test(nomInput.value)) {
+    document.getElementById("error-NOM").innerHTML = "El nombre no puede contener números.";
+    formIsValid = false;
+}
+// 2. Si no contiene números, validar la longitud mínima L)
+else if (nomInput.value.trim().length < 3) {
+    document.getElementById("error-NOM").innerHTML = "El nombre debe tener al menos 3 caracteres.";
+    formIsValid = false;
+}
+
+          
+          // Validar Número de teléfono
+          const numInput = document.getElementById("NUM");
+          if (!numInput.checkValidity()) {
+              document.getElementById("error-NUM").innerHTML = "Por favor, ingresa un número de teléfono válido.";
+              formIsValid = false;
+          }
+
+          // Validar Fecha
+          const feInput = document.getElementById("FE");
+          if (!feInput.checkValidity()) {
+              document.getElementById("error-FE").innerHTML = "Selecciona una fecha válida dentro del rango especificado.";
+              formIsValid = false;
+          }
+
+          // Validar Cantidad de personas
+          const cantInput = document.getElementById("CANT");
+          if (!cantInput.checkValidity()) {
+              document.getElementById("error-CANT").innerHTML = "La cantidad de personas debe ser entre 2 y 7.";
+              formIsValid = false;
+          }
+
+          // Si todas las validaciones pasan, puedes enviar el formulario o hacer algo más
+          if (formIsValid) {
+            alert("¡Formulario válido! Enviando datos...");
+            guardando(); // <--- ¡AQUÍ ES DONDE LLAMAS A LA FUNCIÓN!
+            // Aquí, si quieres enviar el formulario REALMENTE, tendrías que hacerlo programáticamente.
+            // Por ejemplo, si tu formulario fuera a un servidor:
+            // document.getElementById("form-registro").submit(); 
+            // O, más comúnmente en aplicaciones modernas, harías una petición AJAX:
+            // enviarDatosConAjax();
+          } else {
+              alert("Por favor, corrige los errores en el formulario.");
+          }
+          
+        }
+        function guardando() {
+    const nomInput = document.getElementById("NOM");
+    const numInput = document.getElementById("NUM");
+    const feInput = document.getElementById("FE");
+    const cantInput = document.getElementById("CANT");
+    const opcionesInput = document.getElementById("opciones");
+
+    // Recopila los datos del formulario actual en un objeto
+    const datosFormularioActual = {
+        nombre: nomInput.value.trim(),
+        telefono: numInput.value.trim(),
+        fecha: feInput.value,
+        cantidadPersonas: parseInt(cantInput.value, 10), // Asegura que sea un número
+        metodoPago: opcionesInput.value
+    };
+
+    // --- Lógica para almacenar datos en localStorage ---
+
+    // 1. Intenta obtener las reservas existentes de localStorage.
+    //    Si no hay nada guardado bajo 'reservas_registradas', inicializa un array vacío.
+    let reservasExistentes = JSON.parse(localStorage.getItem('reservas_registradas')) || [];
+
+    // 2. Agrega los nuevos datos del formulario al array de reservas existentes.
+    reservasExistentes.push(datosFormularioActual);
+
+    // 3. Guarda el array actualizado de nuevo en localStorage, convertido a una cadena JSON.
+    //    El 'null, 2' es para que el JSON se guarde con formato legible (indentación).
+    localStorage.setItem('reservas_registradas', JSON.stringify(reservasExistentes, null, 2));
+
+    console.log("Datos del formulario guardados en localStorage.");
+    console.log("Estado actual de 'reservas_registradas' en localStorage:", JSON.stringify(reservasExistentes, null, 2));
+
+    // Esta función no necesita retornar nada si solo va a guardar en localStorage.
+}
+
+//copyrit
+          // actualizar automáticamente el año
+          document.getElementById('current-year').textContent = new Date().getFullYear();
+
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+
+        </body>
+        </html>

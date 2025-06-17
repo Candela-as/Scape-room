@@ -1,0 +1,572 @@
+body{
+    background-color: #555;
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+
+}
+/* ---------------ESTILO DE HOME------------------- */
+/* ---------------ESTILO DE MENU------------------- */
+
+.BARRADEMENU{
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+                margin: 0;
+                padding: 0;
+            
+            }
+            .nav {
+                display: flex;
+                border-radius: 5px;
+                border-color: #ff0000;
+                justify-content: space-between;
+                background-color: #1f0c0c;
+                color: #ffff;
+                padding: 0 1rem;
+                transition: background-color 0.3s ease;
+            }
+            .nav:hover {
+              background-color: #130808; /* Un gris un poco más claro, puedes elegir el color que quieras */
+              justify-content: center;
+              align-items: center;
+              cursor: pointer; /* Opcional: Cambia el cursor a una mano para indicar que es interactivo */
+          }
+          
+            .logo a{
+                color: navajowhite;
+                text-decoration: none;
+            
+            }
+            .logo span{
+                color: #fff;
+            }
+          
+            .nav ul{
+                display:flex;
+                list-style-type:none;
+            }
+            .nav ul{
+                display: flex;
+                list-style-type: none;
+            }
+            .nav ul li{
+                margin: 0 10px;
+                padding: 0 10px;
+            }
+            .nav ul li a{
+                text-decoration: none;
+                color: rgb(255, 181, 131);
+                font-size: 17px;
+                transition: all ease .4s;
+            }
+            .nav ul li a:hover{
+
+                color: #ff0a0a;
+            }
+          
+            .wave-text span {
+              display: inline-block;
+              font-size: 5rem;
+              animation: wave 2s ease-in-out infinite;
+          }
+          
+          
+          
+          @keyframes wave {
+              0%, 100% {
+                  transform: translateY(0);
+              }
+              50% {
+                  transform: translateY(-20px);
+              }
+          }
+
+            .back-central{
+                background-image: url('fondorojo.jpg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .back-central h1{
+              font-family: monospace;
+                color: rgb(255, 255, 255);
+            }
+
+
+/* ---------------ESTILO DE TEXTO EN PRECIO------------------- */
+
+
+            .juegos_info{
+                padding: 20px;
+                background-color: #b0b197;
+                
+            }
+           
+            .texto1{
+                color: #e6d3d3;
+                font-size: 3rem;
+                font-weight: bold;
+                font-family: Helvetica;
+                text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+                }
+                .t1{font-size: 2rem;}
+                .t2{font-size: 2rem;}
+                .t3{font-size: 2rem;}
+                .t4{ color: #f0e9e9;font-size: 3rem;
+                    text-shadow: 0 1px 0 #cfcece, 0 2px 0 #35375f, 0 3px 0 #ccb9b9, 0 4px 0 #20165a, 0 5px 0 #a3a3a3, 0 6px 1px rgba(51, 42, 182, 0.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+                    
+                }
+                .tJ{
+                   padding-left: 30%; /* Define un ancho para el div a centrar */
+                    margin: 0 auto;
+                    background-color: #4b4b4b;
+                    
+                }
+      
+            
+/*---------------ESTILO DE PRECIO-------------------*/
+               .seccion-precio {
+                padding: 20px;
+                background-color: #4b4b4b;
+                font-family: Arial, sans-serif;
+                }
+                .seccion-divs {
+                    padding: 20px;
+                    background-color: #4b4b4b73;
+                   
+                    font-family: Arial, sans-serif;
+                  }
+                  
+                  .titulo {
+                    text-align: center;
+                    color: rgb(80, 78, 64);
+                    background-color: #1e1e2f;
+                    padding: 15px;
+                    border-radius: 8px;
+                    margin-bottom: 20px;
+                    font-size: 24px;
+                    font-weight: bold;
+                  }
+                  
+                  .contenedor {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 20px;
+                  }
+                  
+                  .bloque {
+                    
+                    border: 2px solid rgb(255, 255, 255);
+                    border-radius: 10px;
+                    height: 150px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    font-family: Arial, sans-serif;
+                    padding: 10px;
+                    color: white;
+                    transition: transform 0.3s ease;
+                  }
+                  .bloque h3 {
+                    font-size: 18px;
+                    margin: 5px 0;
+                    transition: font-size 0.3s ease;
+                  }
+                  
+                  .bloque:hover h3 {
+                    font-size: 22px;
+                  }
+                  
+                  .bloque p {
+                    margin: 0;
+                    font-size: 16px;
+                  }
+                  
+                  /* Fondos individuales */
+                  .bg1 { background-color: #000000;}
+                  .bg2 { background-color: #000000; }
+                  .bg3 { background-color: #000000; color: rgb(255, 255, 255); }
+                  .bg4 { background-color: #000000; color: rgb(255, 255, 255); }
+                  .bg5 { background-color: #000000}
+                  .bg6 { background-color: #000000; color: rgb(255, 255, 255); }
+                                    
+/*----------------ESTILO DE MAPS------------------- */
+
+.back{
+  background-image: url(map.webp);
+ border-radius: 10px;
+ padding: 1rem;
+ justify-content: center;
+ align-items: center;
+}
+
+.ayuda {
+  padding: 2rem;
+  background-color: #4b4b4bc4;
+  text-align: center;
+  border-radius: 12px 12px 0 0;
+}
+
+#divs-ubicaciones {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #4b4b4b;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  margin: 2rem auto;
+  max-width: 900px;
+}
+
+.mapa-container {
+  width: 100%;
+  height: 60vh;
+  border: none;
+}
+
+ /*----------------------ESTILO DE REGISTRO------------------*/
+/* Puedes agregar un poco de CSS para los mensajes de error */
+.error-message {
+  color: red;
+  font-size: 0.85em;
+  margin-top: 5px;
+}
+            #registro-bloque {
+            width: 100%;
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1.5rem;
+            border-radius: 20px;
+            background-color: #252525;
+            text-align: center;
+            }
+
+            .titulo {
+            font-size: 2rem;
+            border: 2px solid #ccc;
+            padding: 1rem;
+            border-radius: 15px;
+            background-color: #eeeaff;
+            margin-bottom: 2rem;
+            }
+
+            .registro-contenido {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 2rem;
+            align-items: flex-start;
+            }
+
+            .textos {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            text-align: left;
+            }
+
+            .texto {
+            font-size: 1rem;
+            padding: 0.5rem;
+            background-color: #e6d0ff;
+            border-radius: 10px;
+            }
+
+            .acciones {
+            flex: 1;
+            text-align: right;
+            color: beige;
+            }
+
+            #btn-registrarme {
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            background-color: #1e5a9b;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            }
+
+            #form-registro {
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            align-items: flex-start;
+            }
+
+            #form-registro input,
+            .boton {
+            width: 100%;
+            padding: 0.5rem;
+            font-size: 1rem;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            }
+          .boton {
+            background-color: #0b3a70;
+            color: white;
+            border: none;
+            }
+           
+/*-------------------- footer ---------------------*/
+            .dicontactanos{
+                height: 50vh;
+                width: 100%;
+                background-color: #111333;
+                color: white;
+                padding: 1rem;
+                box-sizing: border-box;
+            }
+
+
+/* --- ESTILOS CSS PARA EL FOOTER --- */
+footer {
+  background-color: #1a1a1a; /* Negro oscuro, casi gris */
+  color: #f0f0f0; /* Blanco suave para el texto */
+  padding: 50px 20px;
+  font-family: 'Arial', sans-serif; /* Fuente clara y legible */
+  font-size: 15px;
+  line-height: 1.6;
+  border-top: 5px solid #cc0000; /* Borde superior rojo oscuro para destacar */
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 30px; /* Espacio entre las columnas */
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 220px; /* Ancho mínimo para cada sección */
+  margin-bottom: 20px; /* Espacio inferior para móviles */
+}
+
+.footer-section h4 {
+  color: #e0e0e0; /* Un blanco un poco más brillante para los títulos */
+  margin-bottom: 25px;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  padding-bottom: 8px;
+}
+
+.footer-section h4::after { /* Línea decorativa debajo de los títulos */
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  height: 2px;
+  background-color: #ff3333; /* Rojo brillante */
+}
+
+/* Estilos específicos para la sección del logo */
+.footer-logo img {
+  max-width: 150px; /* Ajusta el tamaño del logo */
+  margin-bottom: 15px;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5)); /* Sombra para el logo si lo necesita */
+}
+
+.footer-logo p {
+  font-style: italic;
+  color: #b0b0b0;
+  font-size: 14px;
+}
+
+/* Estilos para listas de navegación */
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 12px;
+}
+
+.footer-section ul li a {
+  color: #f0f0f0;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.2s ease;
+  display: block; /* Para que el padding y hover funcionen bien */
+  padding: 2px 0;
+}
+
+.footer-section ul li a:hover {
+  color: #ff6666; /* Rojo más claro al pasar el ratón */
+  transform: translateX(5px); /* Pequeño desplazamiento al pasar el ratón */
+}
+
+/* Estilos para información de contacto */
+.footer-section p i {
+  margin-right: 10px;
+  color: #ff3333; /* Iconos en rojo */
+}
+
+.map-link {
+  color: #88aaff; /* Azul para el enlace del mapa */
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.map-link:hover {
+  color: #cceeff; /* Azul más claro al pasar el ratón */
+  text-decoration: underline;
+}
+
+/* Estilos para iconos de redes sociales */
+.social-links a {
+  color: #f0f0f0;
+  font-size: 24px;
+  margin-right: 20px;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.social-links a:hover {
+  color: #ff3333; /* Rojo en hover */
+  transform: translateY(-3px); /* Pequeño salto al pasar el ratón */
+}
+
+/* Estilos para el pie de página inferior (copyright) */
+.footer-bottom {
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid #444; /* Línea divisoria gris */
+  font-size: 13px;
+  color: #aaa;
+}
+
+.footer-bottom a {
+  color: #aaa;
+  text-decoration: none;
+  margin-left: 15px;
+  transition: color 0.3s ease;
+}
+
+.footer-bottom a:hover {
+  color: #fff;
+}
+
+/* --- Media Queries para Responsive Design --- */
+@media (max-width: 768px) {
+  .footer-container {
+      flex-direction: column; /* Apila las secciones en pantallas más pequeñas */
+      align-items: center; /* Centra las secciones */
+      text-align: center;
+  }
+
+  .footer-section {
+      width: 100%;
+      max-width: 350px; /* Limita el ancho en móviles */
+  }
+
+  .footer-section h4::after {
+      left: 50%; /* Centra la línea decorativa */
+      transform: translateX(-50%);
+  }
+
+  .footer-section ul {
+      padding: 0;
+  }
+
+  .social-links {
+      text-align: center;
+  }
+}
+
+
+
+
+/*---------------ESTILO DE JUEGOS-------------------*/
+.carrusel3 {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px 0;
+    background-color: #242323;
+  }
+  
+  .item3 {
+    flex: 0 0 auto;
+    width: 200px;
+    background: #f1f1f1;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .item3:hover {
+    transform: scale(1.05);
+  }
+  
+  .item3 img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .item3 h3 {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  
+  /* Modal */
+  .modal3 {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content3 {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .close-btn3 {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .close-btn3:hover {
+    background: #555;
+  }
+  
+ .juegos{
+    background-color: #242323;
+ }
+
+
+
+
+ 
