@@ -24,10 +24,10 @@ body{
                 transition: background-color 0.3s ease;
             }
             .nav:hover {
-              background-color: #130808; /* Un gris un poco más claro, puedes elegir el color que quieras */
+              background-color: #130808; 
               justify-content: center;
               align-items: center;
-              cursor: pointer; /* Opcional: Cambia el cursor a una mano para indicar que es interactivo */
+              cursor: pointer; 
           }
           
             .logo a{
@@ -120,7 +120,7 @@ body{
                     
                 }
                 .tJ{
-                   padding-left: 30%; /* Define un ancho para el div a centrar */
+                   padding-left: 30%; 
                     margin: 0 auto;
                     background-color: #4b4b4b;
                     
@@ -230,7 +230,7 @@ body{
 }
 
  /*----------------------ESTILO DE REGISTRO------------------*/
-/* Puedes agregar un poco de CSS para los mensajes de error */
+
 .error-message {
   color: red;
   font-size: 0.85em;
@@ -329,13 +329,13 @@ body{
 
 /* --- ESTILOS CSS PARA EL FOOTER --- */
 footer {
-  background-color: #1a1a1a; /* Negro oscuro, casi gris */
-  color: #f0f0f0; /* Blanco suave para el texto */
+  background-color: #1a1a1a; 
+  color: #f0f0f0; 
   padding: 50px 20px;
-  font-family: 'Arial', sans-serif; /* Fuente clara y legible */
+  font-family: 'Arial', sans-serif; 
   font-size: 15px;
   line-height: 1.6;
-  border-top: 5px solid #cc0000; /* Borde superior rojo oscuro para destacar */
+  border-top: 5px solid #cc0000; 
 }
 
 .footer-container {
@@ -344,17 +344,17 @@ footer {
   justify-content: space-around;
   max-width: 1200px;
   margin: 0 auto;
-  gap: 30px; /* Espacio entre las columnas */
+  gap: 30px; 
 }
 
 .footer-section {
   flex: 1;
-  min-width: 220px; /* Ancho mínimo para cada sección */
-  margin-bottom: 20px; /* Espacio inferior para móviles */
+  min-width: 220px; 
+  margin-bottom: 20px; 
 }
 
 .footer-section h4 {
-  color: #e0e0e0; /* Un blanco un poco más brillante para los títulos */
+  color: #e0e0e0; 
   margin-bottom: 25px;
   font-size: 18px;
   text-transform: uppercase;
@@ -363,21 +363,20 @@ footer {
   padding-bottom: 8px;
 }
 
-.footer-section h4::after { /* Línea decorativa debajo de los títulos */
+.footer-section h4::after { 
   content: '';
   position: absolute;
   left: 0;
   bottom: 0;
   width: 50px;
   height: 2px;
-  background-color: #ff3333; /* Rojo brillante */
+  background-color: #ff3333; 
 }
 
-/* Estilos específicos para la sección del logo */
 .footer-logo img {
-  max-width: 150px; /* Ajusta el tamaño del logo */
+  max-width: 150px; 
   margin-bottom: 15px;
-  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5)); /* Sombra para el logo si lo necesita */
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5)); 
 }
 
 .footer-logo p {
@@ -386,7 +385,7 @@ footer {
   font-size: 14px;
 }
 
-/* Estilos para listas de navegación */
+
 .footer-section ul {
   list-style: none;
   padding: 0;
@@ -401,23 +400,22 @@ footer {
   color: #f0f0f0;
   text-decoration: none;
   transition: color 0.3s ease, transform 0.2s ease;
-  display: block; /* Para que el padding y hover funcionen bien */
+  display: block; 
   padding: 2px 0;
 }
 
 .footer-section ul li a:hover {
-  color: #ff6666; /* Rojo más claro al pasar el ratón */
-  transform: translateX(5px); /* Pequeño desplazamiento al pasar el ratón */
+  color: #ff6666; 
+  transform: translateX(5px); 
 }
 
-/* Estilos para información de contacto */
 .footer-section p i {
   margin-right: 10px;
-  color: #ff3333; /* Iconos en rojo */
+  color: #ff3333; 
 }
 
 .map-link {
-  color: #88aaff; /* Azul para el enlace del mapa */
+  color: #88aaff; 
   text-decoration: none;
   display: inline-block;
   margin-top: 10px;
@@ -426,11 +424,10 @@ footer {
 }
 
 .map-link:hover {
-  color: #cceeff; /* Azul más claro al pasar el ratón */
+  color: #cceeff; 
   text-decoration: underline;
 }
 
-/* Estilos para iconos de redes sociales */
 .social-links a {
   color: #f0f0f0;
   font-size: 24px;
@@ -440,16 +437,15 @@ footer {
 }
 
 .social-links a:hover {
-  color: #ff3333; /* Rojo en hover */
-  transform: translateY(-3px); /* Pequeño salto al pasar el ratón */
+  color: #ff3333; 
+  transform: translateY(-3px); 
 }
 
-/* Estilos para el pie de página inferior (copyright) */
 .footer-bottom {
   text-align: center;
   margin-top: 50px;
   padding-top: 25px;
-  border-top: 1px solid #444; /* Línea divisoria gris */
+  border-top: 1px solid #444; 
   font-size: 13px;
   color: #aaa;
 }
@@ -465,21 +461,20 @@ footer {
   color: #fff;
 }
 
-/* --- Media Queries para Responsive Design --- */
 @media (max-width: 768px) {
   .footer-container {
-      flex-direction: column; /* Apila las secciones en pantallas más pequeñas */
-      align-items: center; /* Centra las secciones */
+      flex-direction: column; 
+      align-items: center; 
       text-align: center;
   }
 
   .footer-section {
       width: 100%;
-      max-width: 350px; /* Limita el ancho en móviles */
+      max-width: 350px; 
   }
 
   .footer-section h4::after {
-      left: 50%; /* Centra la línea decorativa */
+      left: 50%; 
       transform: translateX(-50%);
   }
 
