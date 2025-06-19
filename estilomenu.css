@@ -80,7 +80,7 @@ body{
           }
 
             .back-central{
-                background-image: url('F.I/fondorojo.jpg');
+                background-image: url('https://juegosmaniacos.es/wp-content/uploads/2017/07/juegos-maniacos-scape-room-juegos-escape-bilbao-fondo.jpg');
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
@@ -197,7 +197,7 @@ body{
 /*----------------ESTILO DE MAPS------------------- */
 
 .back{
-  background-image: url(F.I/map.webp);
+  background-image: url('https://img.freepik.com/vector-premium/navegacion-mapa-gps-propia-casa-vista-detallada-ciudad-fondo-transporte-abstracto_753943-107.jpg?w=826');
  border-radius: 10px;
  padding: 1rem;
  justify-content: center;
